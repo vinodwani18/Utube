@@ -1,0 +1,84 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "1SwvYMs-D9iVfC6xy3MkRWOKit4",
+    "items": [
+      {
+        "kind": "youtube#video",
+        "etag": "obl0GU3TsJQdbEwKFV2KpP0QxWU",
+        "id": "QdBZY2fkU-0",
+        "snippet": {
+          "publishedAt": "2023-12-04T23:07:10Z",
+          "channelId": "UC6VcWc1rAoWdBCM0JxrRQ3A",
+          "title": "Grand Theft Auto VI Trailer 1",
+          "description": "Song: Love Is A Long Road\nArtist: Tom Petty\nWritten by Thomas Earl Petty and Michael W. Campbell\nPublished by Universal Music Works on behalf of Wild Gator Music (GMR) and Wixen Music Publishing, Inc. as agent for Gone Gator Music (ASCAP) and NotoriousJBPSongs (ASCAP)\nCourtesy of Universal Music Enterprises, a Division of UMG Recordings, Inc.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Rockstar Games",
+          "tags": [
+            "Rockstar Games",
+            "Grand Theft Auto VI",
+            "GTAVI",
+            "GTA 6",
+            "GTA Six",
+            "Grand Theft Auto",
+            "GTA",
+            "Vice City",
+            "Leonida"
+          ],
+          "categoryId": "20",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Grand Theft Auto VI Trailer 1",
+            "description": "Song: Love Is A Long Road\nArtist: Tom Petty\nWritten by Thomas Earl Petty and Michael W. Campbell\nPublished by Universal Music Works on behalf of Wild Gator Music (GMR) and Wixen Music Publishing, Inc. as agent for Gone Gator Music (ASCAP) and NotoriousJBPSongs (ASCAP)\nCourtesy of Universal Music Enterprises, a Division of UMG Recordings, Inc."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT1M31S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "true",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "statistics": {
+          "viewCount": "48886672",
+          "likeCount": "6395233",
+          "favoriteCount": "0",
+          "commentCount": "72785"
+        }
+      }
+    ],
+    "nextPageToken": "CDIQAA",
+    "pageInfo": {
+      "totalResults": 200,
+      "resultsPerPage": 50
+    }
+  }
+  
