@@ -15,25 +15,24 @@ global.fetch = jest.fn(() =>
   })
 );
 
-describe("VideoContainer", () => {
-  it("renders VideoContainer component with video cards", async () => {
-    await act(async () => {
-      render(
-        <BrowserRouter>
-            <Provider store={store}>
-                <VideoContainer />
-            </Provider>
-        </BrowserRouter>
-      );
-    });
+it("renders VideoContainer component with video cards", async () => {
+await act(async () => {
+    render(
+    <BrowserRouter>
+        <Provider store={store}>
+            <VideoContainer />
+        </Provider>
+    </BrowserRouter>
+    );
+});
 
-    // const node = screen.getAllByTestId("videoCard");
-    // expect(node).toBeInTheDocument();
-    // Wait for the asynchronous data fetching to complete
-    await waitFor(() => {
-        const nodes = screen.queryAllByTestId("videoCard");
-        expect(nodes.length).toBeGreaterThan(0);
-      });
-    
-  });
+//const node = screen.getAllByTestId("videoCard");
+const node = screen.getByText("Grand Theft Auto VI Trailer 1");
+expect(node).toBeInTheDocument();
+// Wait for the asynchronous data fetching to complete
+// await waitFor(() => {
+//     const nodes = screen.queryAllByTestId("videoCard");
+//     expect(nodes.length).toBeGreaterThan(0);
+//   });
+
 });
